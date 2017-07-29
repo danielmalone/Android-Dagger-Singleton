@@ -12,4 +12,6 @@ import dagger.Component;
 @Component(modules = {NetModule.class})
 public interface NetComponent {
     void inject(MainActivity activity);
+
+    void inject(SecondActivity activity);
 }
